@@ -24,7 +24,7 @@ const CourseInfo: React.FC = () => {
         </div>
 
         <div className="mt-16" id="hinnat">
-          <h2 className="section-title text-center">Hinnat</h2>
+          <h2 className="section-title text-center">Hinnasto</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <Card className="card-glass">
               <CardContent className="p-6">
