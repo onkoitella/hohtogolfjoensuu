@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -19,6 +20,9 @@ const Footer: React.FC = () => {
             <a href="#hinnat" className="text-gray-300 hover:text-hohtopink transition-colors">
               Hinnat
             </a>
+            <Link to="/baari" className="text-gray-300 hover:text-hohtopink transition-colors">
+              Baari
+            </Link>
             <a href="#varaa" className="text-gray-300 hover:text-hohtopink transition-colors">
               Varaa
             </a>
