@@ -22,6 +22,9 @@ const Header: React.FC = () => {
           <a href="#hinnat" className="text-white hover:text-hohtopink transition-colors">
             Hinnat
           </a>
+          <Link to="/paketit" className="text-white hover:text-hohtopink transition-colors">
+            Paketit
+          </Link>
           <Link to="/baari" className="text-white hover:text-hohtopink transition-colors">
             Baari
           </Link>

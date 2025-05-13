@@ -20,6 +20,9 @@ const Footer: React.FC = () => {
             <a href="#hinnat" className="text-gray-300 hover:text-hohtopink transition-colors">
               Hinnat
             </a>
+            <Link to="/paketit" className="text-gray-300 hover:text-hohtopink transition-colors">
+              Paketit
+            </Link>
             <Link to="/baari" className="text-gray-300 hover:text-hohtopink transition-colors">
               Baari
             </Link>
