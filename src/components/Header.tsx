@@ -1,17 +1,12 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
 const Header: React.FC = () => {
-  return (
-    <header className="py-4 px-4 md:px-8 bg-black border-b border-hohtopink/50">
+  return <header className="py-4 px-4 md:px-8 bg-black border-b border-hohtopink/50">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center">
           <Link to="/">
-            <h1 className="text-2xl md:text-3xl font-bold text-hohtopink animate-glow">
-              HOHTOMINIGOLF JOENSUU
-            </h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-hohtopink animate-glow">HOHTOMINIGOLF JOENSUU</h1>
           </Link>
         </div>
         
@@ -36,8 +31,6 @@ const Header: React.FC = () => {
           </Button>
         </nav>
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
