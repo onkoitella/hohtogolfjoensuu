@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -14,8 +15,8 @@ const Header: React.FC = () => {
           <a href="#tietoa" className="text-white hover:text-hohtopink transition-colors">
             Tietoa
           </a>
-          <a href="#hinnat" className="text-white hover:text-hohtopink transition-colors">
-            Hinnat
+          <a href="#hinnasto" className="text-white hover:text-hohtopink transition-colors">
+            Hinnasto
           </a>
           <Link to="/paketit" className="text-white hover:text-hohtopink transition-colors">
             Paketit

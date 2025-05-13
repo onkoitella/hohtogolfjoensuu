@@ -17,8 +17,8 @@ const Footer: React.FC = () => {
             <a href="#tietoa" className="text-gray-300 hover:text-hohtopink transition-colors">
               Tietoa
             </a>
-            <a href="#hinnat" className="text-gray-300 hover:text-hohtopink transition-colors">
-              Hinnat
+            <a href="#hinnasto" className="text-gray-300 hover:text-hohtopink transition-colors">
+              Hinnasto
             </a>
             <Link to="/paketit" className="text-gray-300 hover:text-hohtopink transition-colors">
               Paketit
