@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Mail, User } from 'lucide-react';
-
 const ContactInfo: React.FC = () => {
-  return (
-    <section id="yhteystiedot" className="py-16 px-4">
+  return <section id="yhteystiedot" className="py-16 px-4">
       <div className="container mx-auto">
         <h2 className="section-title text-center">Yhteystiedot</h2>
         
@@ -16,8 +13,8 @@ const ContactInfo: React.FC = () => {
                 <MapPin className="h-6 w-6 text-hohtopink flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold mb-1">Osoite</h3>
-                  <p className="text-gray-200">Kauppakatu 29</p>
-                  <p className="text-gray-200">80100 Joensuu</p>
+                  <p className="text-gray-200">Kauppakatu 21b</p>
+                  <p className="text-gray-200">80110 Joensuu</p>
                 </div>
               </div>
               
@@ -80,8 +77,6 @@ const ContactInfo: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactInfo;
