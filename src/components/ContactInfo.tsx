@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Clock, Phone, Mail } from 'lucide-react';
+import { MapPin, Clock, Phone, Mail, User } from 'lucide-react';
 
 const ContactInfo: React.FC = () => {
   return (
@@ -44,6 +44,27 @@ const ContactInfo: React.FC = () => {
                 <div>
                   <h3 className="font-bold mb-1">Sähköposti</h3>
                   <p className="text-gray-200">info@hohtominigolfjoensuu.fi</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <User className="h-6 w-6 text-hohtopink flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold mb-1">Henkilökunta</h3>
+                  <div className="grid grid-cols-1 gap-3">
+                    <div>
+                      <p className="text-gray-200 font-medium">Eetu Lehtiniemi</p>
+                      <p className="text-gray-300 text-sm">eetu@hohtominigolfjoensuu.fi</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-200 font-medium">Markus Laine</p>
+                      <p className="text-gray-300 text-sm">markus@hohtominigolfjoensuu.fi</p>
+                    </div>
+                    <div>
+                      <p className="text-gray-200 font-medium">Juuso Lehtiniemi</p>
+                      <p className="text-gray-300 text-sm">juuso@hohtominigolfjoensuu.fi</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </CardContent>
