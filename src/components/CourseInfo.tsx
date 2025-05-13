@@ -1,21 +1,14 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-
 const CourseInfo: React.FC = () => {
-  return (
-    <section id="tietoa" className="py-16 px-4">
+  return <section id="tietoa" className="py-16 px-4">
       <div className="container mx-auto">
         <h2 className="section-title text-center">Tietoa meistä</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
           <div>
             <h3 className="text-2xl font-bold text-hohtopink mb-4">Tervetuloa Hohtominigolf Joensuuhun!</h3>
-            <p className="text-gray-200 mb-4">
-              Hohtominigolf Joensuu on ainutlaatuinen minigolf-elämys Joensuun sydämessä. 
-              Kokeile taitojasi 18-reiällä UV-hohtavalla minigolf-radalla, joka tarjoaa 
-              hauskan ja jännittävän kokemuksen kaikenikäisille.
-            </p>
+            <p className="text-gray-200 mb-4">Hohtominigolf Joensuu on ainutlaatuinen minigolf-elämys Joensuun sydämessä. Kokeile taitojasi 9-reikäisellä UV-hohtavalla minigolf-radalla, joka tarjoaa hauskan ja jännittävän kokemuksen kaikenikäisille.</p>
             <p className="text-gray-200">
               Ratamme on suunniteltu sekä aloittelijoille että kokeneille pelaajille. 
               Tule nauttimaan hyvästä seurasta, musiikista ja unohtumattomasta minigolf-kokemuksesta!
@@ -59,8 +52,6 @@ const CourseInfo: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CourseInfo;
