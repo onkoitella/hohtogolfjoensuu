@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -48,11 +49,55 @@ const Baari: React.FC = () => {
             </div>
             
             <div className="p-4">
-              <div className="aspect-ratio rounded-lg overflow-hidden border-2 border-hohtopink/50 shadow-lg shadow-hohtopink/20 h-[300px]">
-                <div className="w-full h-full bg-gradient-to-br from-hohtopink/20 to-black flex items-center justify-center">
-                  <span className="text-hohtopink text-4xl font-bold">Baari</span>
-                </div>
-              </div>
+              <Card className="card-glass overflow-hidden border border-hohtopink/30">
+                <CardContent className="p-0">
+                  <AspectRatio ratio={16/9} className="bg-black">
+                    <div className="w-full h-full relative">
+                      <div className="absolute inset-0 bg-gradient-to-br from-hohtopink/30 to-black/80"></div>
+                      <div className="absolute inset-0 flex flex-col items-center justify-center">
+                        <div className="flex items-end h-3/4 w-full px-6">
+                          {/* Bar counter */}
+                          <div className="h-16 bg-hohtopink/30 w-full rounded-t-lg relative">
+                            {/* Bottles on the shelf */}
+                            <div className="absolute -top-12 left-0 right-0 h-12 flex justify-around">
+                              <div className="w-6 h-14 bg-hohtopink/40 rounded-sm"></div>
+                              <div className="w-4 h-10 bg-hohtopink/60 rounded-sm"></div>
+                              <div className="w-5 h-12 bg-hohtopink/50 rounded-sm"></div>
+                              <div className="w-3 h-8 bg-hohtopink/70 rounded-sm"></div>
+                              <div className="w-6 h-12 bg-hohtopink/40 rounded-sm"></div>
+                            </div>
+                            
+                            {/* Barstools */}
+                            <div className="absolute -bottom-8 left-0 right-0 flex justify-around">
+                              <div className="flex flex-col items-center">
+                                <div className="w-8 h-2 bg-hohtopink/50 rounded-full"></div>
+                                <div className="w-2 h-6 bg-hohtopink/40"></div>
+                              </div>
+                              <div className="flex flex-col items-center">
+                                <div className="w-8 h-2 bg-hohtopink/50 rounded-full"></div>
+                                <div className="w-2 h-6 bg-hohtopink/40"></div>
+                              </div>
+                              <div className="flex flex-col items-center">
+                                <div className="w-8 h-2 bg-hohtopink/50 rounded-full"></div>
+                                <div className="w-2 h-6 bg-hohtopink/40"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Lights */}
+                      <div className="absolute top-4 left-1/4 w-3 h-3 bg-hohtopink/80 rounded-full animate-pulse"></div>
+                      <div className="absolute top-6 left-1/2 w-4 h-4 bg-hohtopink/70 rounded-full animate-pulse"></div>
+                      <div className="absolute top-3 right-1/4 w-3 h-3 bg-hohtopink/90 rounded-full animate-pulse"></div>
+
+                      <div className="absolute bottom-4 w-full text-center text-white font-semibold">
+                        UV-hohtava baaritiski
+                      </div>
+                    </div>
+                  </AspectRatio>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
