@@ -11,7 +11,7 @@ const Header: React.FC = () => {
             <img 
               src="/lovable-uploads/cb2ad3be-a7a5-4a57-b4f9-5823b888b103.png" 
               alt="Hohtominigolf Joensuu Logo" 
-              className="h-24 md:h-28"
+              className="h-28 md:h-32"
             />
           </Link>
         </div>
