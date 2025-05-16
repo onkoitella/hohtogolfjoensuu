@@ -36,9 +36,11 @@ const CourseInfo: React.FC = () => {
             <Card className="card-glass overflow-hidden order-2 md:order-1">
               <CardContent className="p-0">
                 <AspectRatio ratio={16 / 9} className="bg-black">
-                  <div className="flex items-center justify-center h-full w-full bg-black/80">
-                    <Target size={120} className="text-hohtopink animate-pulse" />
-                  </div>
+                  <img 
+                    src="/lovable-uploads/e4319ac8-1356-4ae9-ae6a-a878f2418c47.png" 
+                    alt="Hohtava darts-taulu punaisella kehyksellä" 
+                    className="object-cover w-full h-full" 
+                  />
                 </AspectRatio>
               </CardContent>
             </Card>
