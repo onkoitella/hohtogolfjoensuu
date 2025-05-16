@@ -1,8 +1,7 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Target, Dices } from "lucide-react";
+import { Target } from "lucide-react";
 
 const CourseInfo: React.FC = () => {
   return <section id="tietoa" className="py-16 px-4">
@@ -75,9 +74,11 @@ const CourseInfo: React.FC = () => {
             <Card className="card-glass overflow-hidden">
               <CardContent className="p-0">
                 <AspectRatio ratio={16 / 9} className="bg-black">
-                  <div className="flex items-center justify-center h-full w-full bg-black/80">
-                    <Dices size={120} className="text-hohtopink animate-pulse" />
-                  </div>
+                  <img 
+                    src="/lovable-uploads/6ac95f66-1559-4e80-acf7-477972330055.png" 
+                    alt="Shuffleboard pöytä neonvalojen alla" 
+                    className="object-cover w-full h-full" 
+                  />
                 </AspectRatio>
               </CardContent>
             </Card>
