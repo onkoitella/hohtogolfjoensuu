@@ -16,7 +16,7 @@ const Index: React.FC = () => {
           <CardContent className="p-0">
             <AspectRatio ratio={21 / 9} className="bg-black">
               <img src="/lovable-uploads/f3e73ff5-ceac-4610-b6bb-a5f67031494f.png" alt="Hohtava minigolf-rata neonvaloilla" className="object-cover w-full h-full" />
-              <div className="absolute inset-0 bg-black/50 flex items-center justify-center my-[174px] py-0">
+              <div className="absolute inset-0 flex items-center justify-center my-[174px] py-0 bg-black/50">
                 <h3 className="text-4xl lg:text-6xl font-bold text-white hohto-glow md:text-3xl my-0 py-[2px]">Koe ainutlaatuinen minigolf-elämys Joensuussa</h3>
               </div>
             </AspectRatio>
