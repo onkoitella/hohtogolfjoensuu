@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Header from '@/components/Header';
 import CourseInfo from '@/components/CourseInfo';
@@ -14,10 +15,10 @@ const Index: React.FC = () => {
       <section className="w-full">
         <Card className="card-glass overflow-hidden w-full rounded-none border-x-0">
           <CardContent className="p-0">
-            <AspectRatio ratio={21 / 9} className="bg-black">
+            <AspectRatio ratio={16 / 9} className="bg-black">
               <img src="/lovable-uploads/f3e73ff5-ceac-4610-b6bb-a5f67031494f.png" alt="Hohtava minigolf-rata neonvaloilla" className="object-cover w-full h-full" />
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                <h3 className="text-4xl font-bold text-white hohto-glow">Koe ainutlaatuinen minigolf-elämys Joensuussa</h3>
+                <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white hohto-glow">Koe ainutlaatuinen minigolf-elämys Joensuussa</h3>
               </div>
             </AspectRatio>
           </CardContent>
