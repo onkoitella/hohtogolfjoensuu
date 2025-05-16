@@ -170,9 +170,7 @@ const Baari: React.FC = () => {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-gradient-to-t from-black to-gray-900">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-hohtopink animate-glow">
-            Tule viihtymään baariin!
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-hohtopink animate-glow">Tule viihtymään!</h2>
           <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
             Järjestämme myös yksityistilaisuuksia ja teemailtoja. Ota yhteyttä ja kysy lisää!
           </p>
