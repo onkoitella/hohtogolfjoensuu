@@ -43,6 +43,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-8 border-t border-hohtopink/20 pt-6 text-center text-gray-400 text-sm">
           <p>&copy; {currentYear} Hohtominigolf Joensuu. Kaikki oikeudet pidätetään.</p>
+          <p className="mt-2">Powered by TASO</p>
         </div>
       </div>
     </footer>
