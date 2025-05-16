@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-import { Darts, Shuffle } from "lucide-react";
+import { Target, Dices } from "lucide-react";
 
 const CourseInfo: React.FC = () => {
   return <section id="tietoa" className="py-16 px-4">
@@ -37,7 +37,7 @@ const CourseInfo: React.FC = () => {
               <CardContent className="p-0">
                 <AspectRatio ratio={16 / 9} className="bg-black">
                   <div className="flex items-center justify-center h-full w-full bg-black/80">
-                    <Darts size={120} className="text-hohtopink animate-pulse" />
+                    <Target size={120} className="text-hohtopink animate-pulse" />
                   </div>
                 </AspectRatio>
               </CardContent>
@@ -74,7 +74,7 @@ const CourseInfo: React.FC = () => {
               <CardContent className="p-0">
                 <AspectRatio ratio={16 / 9} className="bg-black">
                   <div className="flex items-center justify-center h-full w-full bg-black/80">
-                    <Shuffle size={120} className="text-hohtopink animate-pulse" />
+                    <Dices size={120} className="text-hohtopink animate-pulse" />
                   </div>
                 </AspectRatio>
               </CardContent>
