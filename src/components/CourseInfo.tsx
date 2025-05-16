@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
-
 const CourseInfo: React.FC = () => {
   return <section id="tietoa" className="py-16 px-4">
       <div className="container mx-auto">
@@ -19,15 +17,10 @@ const CourseInfo: React.FC = () => {
           </div>
           <Card className="card-glass overflow-hidden">
             <CardContent className="p-0">
-              <AspectRatio ratio={16/9} className="bg-black">
-                <img 
-                  src="/lovable-uploads/ee95df46-34a1-468b-8a0e-41bbb6c38ea4.png" 
-                  alt="Hohtava 9-reikäinen minigolf-rata" 
-                  className="object-cover w-full h-full"
-                />
+              <AspectRatio ratio={16 / 9} className="bg-black">
+                <img src="/lovable-uploads/ee95df46-34a1-468b-8a0e-41bbb6c38ea4.png" alt="Hohtava 9-reikäinen minigolf-rata" className="object-cover w-full h-full" />
                 <div className="absolute bottom-2 w-full text-center text-white font-semibold bg-black/50 py-1">
-                  Hohtava 9-reikäinen rata
-                </div>
+              </div>
               </AspectRatio>
             </CardContent>
           </Card>
