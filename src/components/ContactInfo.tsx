@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Mail, User } from 'lucide-react';
+
 const ContactInfo: React.FC = () => {
   return <section id="yhteystiedot" className="py-16 px-4">
       <div className="container mx-auto">
@@ -68,15 +70,15 @@ const ContactInfo: React.FC = () => {
           </Card>
           
           <div className="h-full min-h-[300px] bg-black border border-hohtopink/30 rounded-lg overflow-hidden relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <p className="text-hohtopink font-bold">Kartta sijainnista</p>
-                <p className="text-sm text-gray-400">(Placeholder karttaa varten)</p>
-              </div>
-            </div>
+            <img 
+              src="/lovable-uploads/6b1096cd-715d-4b40-9100-3ce1abada877.png" 
+              alt="Hohtominigolf sijainti" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
     </section>;
 };
+
 export default ContactInfo;
