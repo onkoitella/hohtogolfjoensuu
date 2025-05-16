@@ -20,29 +20,13 @@ const CourseInfo: React.FC = () => {
           <Card className="card-glass overflow-hidden">
             <CardContent className="p-0">
               <AspectRatio ratio={16/9} className="bg-black">
-                <div className="w-full h-full relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-hohtopink/20 to-black/60 mix-blend-overlay"></div>
-                  <div className="absolute inset-0 flex flex-col items-center justify-center">
-                    <div className="w-full h-full bg-gradient-to-br from-hohtopink/30 to-black/80">
-                      <div className="w-full h-full p-8 flex flex-col items-center justify-center">
-                        <div className="rounded-full w-24 h-24 bg-hohtopink/30 mb-4 flex items-center justify-center">
-                          <div className="rounded-full w-16 h-16 bg-hohtopink/50 flex items-center justify-center">
-                            <div className="rounded-full w-8 h-8 bg-hohtopink animate-pulse"></div>
-                          </div>
-                        </div>
-                        <div className="h-2 w-32 rounded-full bg-hohtopink/30 mb-2"></div>
-                        <div className="h-2 w-48 rounded-full bg-hohtopink/20 mb-2"></div>
-                        <div className="h-2 w-40 rounded-full bg-hohtopink/10"></div>
-                        
-                        <div className="absolute bottom-4 right-4 w-10 h-10 rounded-full bg-hohtopink/50"></div>
-                        <div className="absolute top-10 left-6 w-6 h-6 rounded-full bg-hohtopink/40"></div>
-                        <div className="absolute top-4 right-12 w-4 h-4 rounded-full bg-hohtopink/60"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute bottom-2 w-full text-center text-white font-semibold">
-                    Hohtava 9-reikäinen rata
-                  </div>
+                <img 
+                  src="/lovable-uploads/ee95df46-34a1-468b-8a0e-41bbb6c38ea4.png" 
+                  alt="Hohtava 9-reikäinen minigolf-rata" 
+                  className="object-cover w-full h-full"
+                />
+                <div className="absolute bottom-2 w-full text-center text-white font-semibold bg-black/50 py-1">
+                  Hohtava 9-reikäinen rata
                 </div>
               </AspectRatio>
             </CardContent>
