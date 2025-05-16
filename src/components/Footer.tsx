@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               <img 
                 src="/lovable-uploads/cb2ad3be-a7a5-4a57-b4f9-5823b888b103.png" 
                 alt="Hohtominigolf Joensuu Logo" 
-                className="h-12 md:h-16"
+                className="h-16 md:h-24"
               />
             </Link>
           </div>
