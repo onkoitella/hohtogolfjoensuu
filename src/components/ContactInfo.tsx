@@ -24,9 +24,11 @@ const ContactInfo: React.FC = () => {
                 <Clock className="h-6 w-6 text-hohtopink flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold mb-1">Aukioloajat</h3>
-                  <p className="text-gray-200">Ma-To: 12:00 - 21:00</p>
-                  <p className="text-gray-200">Pe-La: 12:00 - 23:00</p>
-                  <p className="text-gray-200">Su: 12:00 - 18:00</p>
+                  <p className="text-gray-200">Tiistai – Torstai: 15.00 – 22.00</p>
+                  <p className="text-gray-200">Perjantai: 15.00 – 01.00 (2.00)</p>
+                  <p className="text-gray-200">Lauantai: 12.00 – 01.00 (2.00)</p>
+                  <p className="text-gray-200">Sunnuntai: 12.00 – 21.00</p>
+                  <p className="text-gray-300 text-sm mt-1">Klo 20.00 jälkeen olemme K-18</p>
                 </div>
               </div>
               
