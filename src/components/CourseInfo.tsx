@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -12,17 +13,50 @@ const CourseInfo: React.FC = () => {
           <div>
             <h3 className="text-2xl font-bold text-hohtopink mb-4">Tervetuloa Hohtominigolf Joensuuhun!</h3>
             <p className="text-gray-200 mb-4">Hohtominigolf Joensuu on ainutlaatuinen minigolf-elämys Joensuun sydämessä. Kokeile taitojasi 9-reikäisellä UV-hohtavalla minigolf-radalla, joka tarjoaa hauskan ja jännittävän kokemuksen kaikenikäisille.</p>
-            <p className="text-gray-200">
+            <p className="text-gray-200 mb-6">
               Ratamme on suunniteltu sekä aloittelijoille että kokeneille pelaajille. 
               Tule nauttimaan hyvästä seurasta, musiikista ja unohtumattomasta minigolf-kokemuksesta!
             </p>
+            
+            {/* Full-width background image for mobile, hidden on desktop */}
+            <div className="md:hidden w-full mt-4 mb-6">
+              <Card className="card-glass overflow-hidden">
+                <CardContent className="p-0">
+                  <AspectRatio ratio={16 / 9} className="bg-black">
+                    <img 
+                      src="/lovable-uploads/f3e73ff5-ceac-4610-b6bb-a5f67031494f.png" 
+                      alt="Hohtava minigolf-rata neonvaloilla" 
+                      className="object-cover w-full h-full" 
+                    />
+                  </AspectRatio>
+                </CardContent>
+              </Card>
+            </div>
           </div>
           <Card className="card-glass overflow-hidden">
             <CardContent className="p-0">
               <AspectRatio ratio={16 / 9} className="bg-black">
                 <img src="/lovable-uploads/ee95df46-34a1-468b-8a0e-41bbb6c38ea4.png" alt="Hohtava 9-reikäinen minigolf-rata" className="object-cover w-full h-full" />
                 <div className="absolute bottom-2 w-full text-center text-white font-semibold bg-black/50 py-1">
-              </div>
+                </div>
+              </AspectRatio>
+            </CardContent>
+          </Card>
+        </div>
+        
+        {/* Full-width background image section - visible only on desktop */}
+        <div className="hidden md:block mt-10">
+          <Card className="card-glass overflow-hidden w-full">
+            <CardContent className="p-0">
+              <AspectRatio ratio={21 / 9} className="bg-black">
+                <img 
+                  src="/lovable-uploads/f3e73ff5-ceac-4610-b6bb-a5f67031494f.png" 
+                  alt="Hohtava minigolf-rata neonvaloilla" 
+                  className="object-cover w-full h-full" 
+                />
+                <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
+                  <h3 className="text-4xl font-bold text-white hohto-glow">Koe ainutlaatuinen minigolf-elämys Joensuussa</h3>
+                </div>
               </AspectRatio>
             </CardContent>
           </Card>
