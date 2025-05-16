@@ -2,12 +2,17 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+
 const Header: React.FC = () => {
   return <header className="py-4 px-4 md:px-8 bg-black border-b border-hohtopink/50">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center">
           <Link to="/">
-            <h1 className="text-2xl md:text-3xl font-bold text-hohtopink animate-glow">HOHTOMINIGOLF JOENSUU</h1>
+            <img 
+              src="/lovable-uploads/cb2ad3be-a7a5-4a57-b4f9-5823b888b103.png" 
+              alt="Hohtominigolf Joensuu Logo" 
+              className="h-16 md:h-20"
+            />
           </Link>
         </div>
         
@@ -34,4 +39,5 @@ const Header: React.FC = () => {
       </div>
     </header>;
 };
+
 export default Header;

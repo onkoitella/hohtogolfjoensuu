@@ -92,9 +92,6 @@ const Index: React.FC = () => {
         
         <div className="container mx-auto relative z-20">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-white">
-              <span className="text-hohtopink animate-glow">HOHTO</span>MINIGOLF
-            </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
               Koe ainutlaatuinen minigolf-elämys Joensuussa!
             </p>

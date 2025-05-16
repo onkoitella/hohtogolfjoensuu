@@ -10,7 +10,13 @@ const Footer: React.FC = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h2 className="text-xl font-bold text-hohtopink">HOHTOMINIGOLF JOENSUU</h2>
+            <Link to="/">
+              <img 
+                src="/lovable-uploads/cb2ad3be-a7a5-4a57-b4f9-5823b888b103.png" 
+                alt="Hohtominigolf Joensuu Logo" 
+                className="h-12 md:h-16"
+              />
+            </Link>
           </div>
           
           <div className="flex flex-col md:flex-row gap-4 md:gap-8">
