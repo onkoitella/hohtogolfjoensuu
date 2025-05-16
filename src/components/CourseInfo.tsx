@@ -31,7 +31,7 @@ const CourseInfo: React.FC = () => {
 
         {/* Darts Section */}
         <div className="mt-16">
-          <h2 className="section-title text-center">Hohtodarts</h2>
+          <h2 className="section-title text-center">Darts</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
             <Card className="card-glass overflow-hidden order-2 md:order-1">
               <CardContent className="p-0">
