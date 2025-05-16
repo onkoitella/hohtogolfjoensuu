@@ -25,16 +25,7 @@ const Index: React.FC = () => {
       </section>
       
       {/* Hero Section with Indoor Hohtominigolf Background */}
-      <section className="py-16 md:py-24 px-4 relative overflow-hidden">
-        
-        
-        <div className="container mx-auto relative z-20">
-          <div className="text-center max-w-3xl mx-auto">
-            
-            
-          </div>
-        </div>
-      </section>
+      
       
       <CourseInfo />
       

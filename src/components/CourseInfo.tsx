@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Target } from "lucide-react";
 const CourseInfo: React.FC = () => {
-  return <section id="tietoa" className="px-[6px] py-0">
+  return <section id="tietoa" className="px-[6px] py-[57px]">
       <div className="container mx-auto">
         <h2 className="section-title text-center">Tietoa meistä</h2>
         
