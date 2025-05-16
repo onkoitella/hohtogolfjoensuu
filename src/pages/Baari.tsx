@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Beer, Wine, Lamp } from "lucide-react";
 
 const Baari: React.FC = () => {
   return (
@@ -26,6 +27,56 @@ const Baari: React.FC = () => {
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
               Nauti juomista loistavassa tunnelmassa!
             </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* UV-hohtava baaritiksi Section */}
+      <section className="py-12 px-4 bg-gradient-to-b from-black to-gray-900">
+        <div className="container mx-auto">
+          <h2 className="section-title text-center mb-12">UV-hohtava Baaritiksi</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="p-4 order-2 md:order-1">
+              <Card className="card-glass overflow-hidden border border-hohtopink/30">
+                <CardContent className="p-0">
+                  <AspectRatio ratio={16/9} className="bg-black">
+                    <img 
+                      src="/lovable-uploads/30496725-45c4-4863-b7be-a857d960f507.png" 
+                      alt="UV-hohtava baaritiksi" 
+                      className="object-cover w-full h-full" 
+                    />
+                  </AspectRatio>
+                </CardContent>
+              </Card>
+            </div>
+            
+            <div className="order-1 md:order-2">
+              <div className="card-glass p-6">
+                <h3 className="text-2xl font-bold text-hohtopink mb-4">Tunnelmallinen UV-hohtava baari</h3>
+                <p className="mb-4 text-lg">
+                  Hohtominigolfin yhteydessä toimiva baarimme tarjoaa ainutlaatuisen tunnelman UV-valaistuksen alla. 
+                  Baaritiskin vihreä hohto ja sininen valaistus luovat täydellisen ilmapiirin illanviettoon.
+                </p>
+                <p className="mb-6 text-lg">
+                  Tilavassa baarissamme voit nauttia laadukkaista juomista ja hyvästä seurasta koko illan ajan.
+                </p>
+                <div className="flex flex-wrap gap-4 mt-4">
+                  <div className="flex items-center">
+                    <Beer className="text-hohtopink mr-2 h-5 w-5" />
+                    <span>Laadukkaat oluet</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Wine className="text-hohtopink mr-2 h-5 w-5" />
+                    <span>Monipuolinen valikoima</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Lamp className="text-hohtopink mr-2 h-5 w-5" />
+                    <span>Ainutlaatuinen tunnelma</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
