@@ -29,7 +29,7 @@ const Baari: React.FC = () => {
       </section>
       
       {/* UV-hohtava baaritiksi Section */}
-      <section className="py-12 px-4 bg-gradient-to-b from-black to-gray-900 my-0">
+      <section className="bg-gradient-to-b from-black to-gray-900 my-[11px] py-0 px-0 mx-0">
         <div className="container mx-auto">
           
           
